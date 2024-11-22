@@ -30,16 +30,16 @@ a {
     text-decoration: none;
 }
 
-/* regole navigazione */
+/* regole navigazione header */
 
-ul {
+ul.list-mainnav {
     display: flex;
     justify-content: center;
     flex-basis: 50%;
     gap: 10px;
 }
 
-ul li {
+ul.list-mainnav li, ul.list-footnav li {
     list-style: none;
 }
 
@@ -142,17 +142,17 @@ section {
     flex-basis: 20%;
     /* debug */
     background-color: #f08180;
-    height: 250px;
+    height: 300px;
 }
 
 .footer-nav {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-basis: 50%;
     /* debug */
     background-color: #20b3aa;
-    height: 250px;
+    height: 300px;
 }
 
 .footer-button {
@@ -164,3 +164,16 @@ section {
     background-color: #7fffd4;
 }
 
+.sub-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+/* regole navigazione footer */
+
+ul.list-footnav {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 100%;
+
+} 
