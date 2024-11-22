@@ -43,6 +43,7 @@ ul li {
 /* regole button */
 
 .button {
+    /* colore di test */
     background-color: white;
     border-radius: 5px;
 }
@@ -77,15 +78,29 @@ ul li {
 
 }
 
+.cont-big {
+    /* debug */
+    height: 500px;
+}
+
+.cont-small {
+    border-top: 2px solid white;
+    /* debug */
+    height: 80px;
+}
+
+/* regole colori container */
+
 .cont-grey {
     /* debug */
     background-color: #d3d3d3;
 }
 
-.cont-big {
+.cont-black {
     /* debug */
-    height: 500px;
+    background-color: #23272a;
 }
+
 
 /* regole main */
 
@@ -117,3 +132,32 @@ section {
     background-color: #ffc0ca;
     height: 250px;
 }
+
+/* regole footer */
+
+.footer {
+    flex-basis: 20%;
+    /* debug */
+    background-color: #f08180;
+    height: 250px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    /* debug */
+    background-color: #20b3aa;
+    height: 250px;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    /* debug */
+    background-color: #7fffd4;
+}
+
