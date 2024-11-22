@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* regole header */
+
+header {
+    background-color: #add8e7;
+    height: 80px;
+    padding: 20px 0;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20%;
+    /* debug */
+    background-color: #d8a81d;
+    height: 40px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* regole navigazione */
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+    gap: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+/* regole button */
+
+.button {
+    background-color: white;
+    border-radius: 5px;
+}
