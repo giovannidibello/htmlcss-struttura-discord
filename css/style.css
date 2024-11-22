@@ -82,6 +82,11 @@ ul li {
     background-color: #d3d3d3;
 }
 
+.cont-big {
+    /* debug */
+    height: 500px;
+}
+
 /* regole main */
 
 section {
@@ -89,6 +94,13 @@ section {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.section-big {
+    flex-basis: 70% ;
+    /* debug */
+    background-color: #218b21;
+    height: 400px;
 }
 
 
