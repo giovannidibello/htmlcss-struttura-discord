@@ -7,16 +7,19 @@
 /* regole header */
 
 header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #add8e7;
     height: 80px;
-    padding: 20px 0;
 }
 
 .main-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 20%;
+    width: 80%;
+    /* margin: 0 20%; */
     /* debug */
     background-color: #d8a81d;
     height: 40px;
