@@ -64,3 +64,44 @@ ul li {
     background-color: #ef82ed;
     height: 200px;
 }
+
+/* regole container */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* debug */
+    height: 300px;
+
+}
+
+.cont-grey {
+    /* debug */
+    background-color: #d3d3d3;
+}
+
+/* regole main */
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.img {
+    flex-basis: 40%;
+    /* debug */
+    background-color: #1e90ff;
+    height: 250px;
+}
+
+.text {
+    flex-basis: 30%;
+    /* debug */
+    background-color: #ffc0ca;
+    height: 250px;
+}
