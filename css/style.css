@@ -46,3 +46,21 @@ ul li {
     background-color: white;
     border-radius: 5px;
 }
+
+/* regole jumbotron */
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: #00018b;
+    height: 250px;
+}
+
+.jumbotron div {
+    width: 50%;    
+    /* debug */
+    background-color: #ef82ed;
+    height: 200px;
+}
